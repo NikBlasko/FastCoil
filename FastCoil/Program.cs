@@ -138,18 +138,19 @@ namespace ConsoleApp1
                     prev_arc.Update();
                 }
 
-                //рисуем выноску
-                //if (isSlat)
-                //{
-                //    IBaseLeader base_lead = leaders.Add(DrawingObjectTypeEnum.ksDrLeader);
-                //    ksDrawingObjectParamTypeEnum param = base_lead.DrawingObjectParamType;
-                //    param.
-                //    base_lead.SetBranchTextPosition(10, 10);
-                //    ILeader lead = (ILeader)base_lead;
-                //    lead.SetSignPosition(0, 30, 30);
-                //    base_lead.Update();
+                /*рисуем выноску
+                if (isSlat)
+                {
+                    IBaseLeader base_lead = leaders.Add(DrawingObjectTypeEnum.ksDrLeader);
+                    ksDrawingObjectParamTypeEnum param = base_lead.DrawingObjectParamType;
+                    param.
+                    base_lead.SetBranchTextPosition(10, 10);
+                    ILeader lead = (ILeader)base_lead;
+                    lead.SetSignPosition(0, 30, 30);
+                    base_lead.Update();
 
-                //}
+                }
+                */
 
                 if (i + 1 == count_layers)
                 {
